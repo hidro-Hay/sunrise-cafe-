@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Upcoming events at Sunrise Brunch Café">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events | Sunrise Brunch Café</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Sunrise Brunch Café</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="catering.html">Catering</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section>
+        <h2>Upcoming Events</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Event</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>March 15</td>
+                    <td>Live Acoustic Music</td>
+                    <td>Local artists performing during brunch hours.</td>
+                </tr>
+                <tr>
+                    <td>March 22</td>
+                    <td>Family Brunch Day</td>
+                    <td>Special kids menu and family discounts.</td>
+                </tr>
+                <tr>
+                    <td>April 5</td>
+                    <td>Coffee Workshop</td>
+                    <td>Learn how to brew the perfect cup at home.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Event Moments</h2>
+
+        <div class="grid-container">
+            <div>Live Music</div>
+            <div>Family Brunch</div>
+            <div>Coffee Workshop</div>
+            <div>Community Gatherings</div>
+        </div>
+    </section>
+
+    <section>
+        <figure>
+            <img src="IMG__2611.jpeg"
+                 alt="Customers attending a brunch event at Sunrise Brunch Café">
+            <figcaption>
+                Guests enjoying one of our recent brunch events.
+            </figcaption>
+        </figure>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Sunrise Brunch Café</p>
+</footer>
+
+</body>
+</html>
