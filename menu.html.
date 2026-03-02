@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Menu - Sunrise Brunch Café">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Sunrise Brunch Café</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Sunrise Brunch Café</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="catering.html">Catering</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section>
+        <h2>Popular Items</h2>
+
+        <!-- Simple List -->
+        <ul>
+            <li>Pancakes with Maple Syrup</li>
+            <li>Avocado Toast</li>
+            <li>Classic Breakfast Plate</li>
+            <li>Iced Caramel Latte</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Full Menu</h2>
+
+        <!-- Complex Nested List -->
+        <ul>
+            <li>Breakfast
+                <ul>
+                    <li>Scrambled Eggs</li>
+                    <li>Omelette</li>
+                    <li>French Toast</li>
+                </ul>
+            </li>
+
+            <li>Drinks
+                <ul>
+                    <li>Hot Drinks
+                        <ul>
+                            <li>Espresso</li>
+                            <li>Cappuccino</li>
+                            <li>Latte</li>
+                        </ul>
+                    </li>
+                    <li>Cold Drinks
+                        <ul>
+                            <li>Iced Coffee</li>
+                            <li>Fresh Orange Juice</li>
+                            <li>Smoothies</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li>Desserts
+                <ul>
+                    <li>Chocolate Cake</li>
+                    <li>Cheesecake</li>
+                    <li>Cookies</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Grid Section -->
+    <section>
+        <h2>Menu Highlights</h2>
+
+        <div class="grid-container">
+            <div>Pancakes</div>
+            <div>Avocado Toast</div>
+            <div>Fresh Coffee</div>
+            <div>Homemade Desserts</div>
+        </div>
+    </section>
+
+    <!-- Image -->
+    <section>
+        <figure>
+            <img src="IMG__2614.jpeg"
+                 alt="Menu board showing food and drink options at Sunrise Brunch Café">
+            <figcaption>
+                Our full menu displayed inside the café.
+            </figcaption>
+        </figure>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Sunrise Brunch Café</p>
+</footer>
+
+</body>
+</html>
