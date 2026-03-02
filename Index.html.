@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sunrise Brunch Café - Fresh coffee, homemade brunch, and catering services.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunrise Brunch Café | Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Sunrise Brunch Café</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Our Menu</a></li>
+            <li><a href="catering.html">Catering Services</a></li>
+            <li><a href="events.html">Upcoming Events</a></li>
+            <li><a href="contact.html">Make a Reservation</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section>
+        <h2>Welcome to Sunrise Brunch Café</h2>
+        <p>
+            Sunrise Brunch Café is a cozy neighborhood café offering fresh coffee,
+            homemade pastries, and delicious brunch options. We focus on quality,
+            comfort, and community.
+        </p>
+    </section>
+
+    <!-- Image Section -->
+    <section>
+        <figure>
+            <img src="IMG__2613.jpeg"
+                 alt="Interior view of Sunrise Brunch Café showing tables and seating area">
+            <figcaption>
+                A look inside Sunrise Brunch Café and our welcoming atmosphere.
+            </figcaption>
+        </figure>
+    </section>
+
+    <!-- Video Section -->
+    <section>
+        <h2>Experience Our Café</h2>
+
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/9No-FiEInLA"
+            title="Coffee Shop Promotional Video"
+            allowfullscreen>
+        </iframe>
+
+        <p>
+            Watch this short video to experience the energy and passion behind great coffee.
+        </p>
+    </section>
+
+    <!-- External Link -->
+    <section>
+        <p>
+            Learn more about safe food practices at the
+            <a href="https://www.fda.gov/food" target="_blank">
+                official FDA Food Safety Guidelines website
+            </a>.
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Sunrise Brunch Café. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
