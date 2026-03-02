@@ -4,6 +4,7 @@ body {
     background-color: #f4f4f4;
 }
 
+/* HEADER */
 header {
     background-color: #d35400;
     color: white;
@@ -11,14 +12,13 @@ header {
     text-align: center;
 }
 
+/* FLEXBOX (navigation) */
 nav ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 nav a {
@@ -27,14 +27,24 @@ nav a {
     font-weight: bold;
 }
 
+/* MAIN CONTENT */
 main {
     padding: 20px;
 }
 
-section {
-    margin-bottom: 30px;
+/* GRID (image layout example) */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
 }
 
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+/* TABLE */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -43,16 +53,14 @@ table {
 table, th, td {
     border: 1px solid #ccc;
     padding: 8px;
+    text-align: left;
 }
 
+/* FOOTER */
 footer {
-    text-align: center;
-    padding: 10px;
     background-color: #333;
     color: white;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
 }
