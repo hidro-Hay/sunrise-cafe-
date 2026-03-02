@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="About Sunrise Brunch Café">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Sunrise Brunch Café</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Sunrise Brunch Café</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="catering.html">Catering</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section>
+        <h2>Our Story</h2>
+        <p>
+            Sunrise Brunch Café started as a small neighborhood café.
+            The idea was simple: serve good coffee and fresh food in a
+            comfortable place where people can relax.
+        </p>
+        <p>
+            Over time, it became a popular spot for students, families,
+            and friends who enjoy brunch together.
+        </p>
+    </section>
+
+    <section>
+        <figure>
+            <img src="IMG__2609.webp"
+                 alt="Customers sitting inside Sunrise Brunch Café enjoying brunch">
+            <figcaption>
+                A typical morning at Sunrise Brunch Café.
+            </figcaption>
+        </figure>
+    </section>
+
+    <section>
+        <h2>Our Team</h2>
+
+        <div class="flex-container">
+
+            <div>
+                <h3>Maria</h3>
+                <p>Founder and main chef.</p>
+            </div>
+
+            <div>
+                <h3>Lucas</h3>
+                <p>Barista and coffee specialist.</p>
+            </div>
+
+            <div>
+                <h3>Ana</h3>
+                <p>Helps organize events and customer service.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Sunrise Brunch Café</p>
+</footer>
+
+</body>
+</html>
