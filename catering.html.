@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Catering services offered by Sunrise Brunch Café">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catering | Sunrise Brunch Café</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Sunrise Brunch Café</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="catering.html">Catering</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section>
+        <h2>Catering Services</h2>
+        <p>
+            We offer catering for private events, business meetings,
+            and family gatherings. Below are our most common packages.
+        </p>
+    </section>
+
+    <!-- Complex Table -->
+    <section>
+        <h2>Catering Packages</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Package</th>
+                    <th>Includes</th>
+                    <th>Guests</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Basic Package</td>
+                    <td>
+                        Coffee, pastries, and fruit platter
+                    </td>
+                    <td>Up to 15</td>
+                    <td>$150</td>
+                </tr>
+
+                <tr>
+                    <td>Standard Package</td>
+                    <td>
+                        Coffee, brunch plates, desserts, and drinks
+                    </td>
+                    <td>Up to 30</td>
+                    <td>$350</td>
+                </tr>
+
+                <tr>
+                    <td>Premium Package</td>
+                    <td>
+                        Full brunch buffet, drinks, desserts,
+                        and on-site service staff
+                    </td>
+                    <td>Up to 50</td>
+                    <td>$650</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <figure>
+            <img src="IMG__2612.jpeg"
+                 alt="Catering table setup with brunch food and drinks">
+            <figcaption>
+                Example of a catering setup prepared by our team.
+            </figcaption>
+        </figure>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Sunrise Brunch Café</p>
+</footer>
+
+</body>
+</html>
